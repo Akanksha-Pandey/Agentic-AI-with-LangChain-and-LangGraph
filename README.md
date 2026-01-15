@@ -67,7 +67,7 @@ The repository serves as both a learning resource and a reference for building p
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/Agentic-AI-with-LangChain-and-LangGraph.git
+   git clone https://github.com/Akanksha-Pandey/Agentic-AI-with-LangChain-and-LangGraph.git
    cd Agentic-AI-with-LangChain-and-LangGraph
    ```
 
@@ -90,10 +90,11 @@ The repository serves as both a learning resource and a reference for building p
 
 4. **Set up API keys:**
    
-   Create a `.env` file in the root directory with your API keys:
+   Create a `api_keys.json` file in the root directory with your API keys:
    ```
-   OPENAI_API_KEY=your_api_key_here
-   # Add other API keys as needed for different integrations
+   {
+      "OPENAI_API_KEY" : "your_api_key_here"
+   }
    ```
 
 5. **Start Jupyter:**
@@ -105,12 +106,12 @@ The repository serves as both a learning resource and a reference for building p
 
 6. **Open and run notebooks:**
    - Navigate to the `notebooks/` directory
-   - Start with `LangGraph101 Building Stateful AI Workflows.ipynb`
+   - Start with `lab - LangGraph101 Building Stateful AI Workflows.ipynb`
    - Progress through notebooks in order for best learning experience
 
 ### Environment Variables
 
-Create a `.env` file (or use your preferred secrets management) to store:
+Create a `api_keys.json` file (or use your preferred secrets management) to store:
 - `OPENAI_API_KEY` - For OpenAI API access
 - Other API keys for external integrations
 
@@ -131,7 +132,7 @@ pip install --force-reinstall -r requirements.txt
 
 ## Learning Path
 
-1. Start with foundational concepts in LangGraph 101
+1. Start with foundational LangGraph concepts 
 2. Learn reasoning and acting patterns
 3. Practice with reflection agent implementation
 4. Explore advanced patterns with external knowledge integration
